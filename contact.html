@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CrèmeBae</title>
+
+   <!--Tailwind Css link-->
+   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+   <!--Font Awesome link-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <!--Tailiwind contact template link-->
+   <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+   <!-----------------------Navbar--------------------------->
+   <nav class="bg-blue-50 p-3 flex items-center justify-between shadow-2xl sticky top-0 z-10">
+
+      <h1 class="text-4xl font-extrabold">CrèmeBae</h1>
+
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+         class="w-8 h-15 md:hidden">
+         <path stroke-linecap="round" stroke-linejoin="round"
+            d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+      </svg>
+
+      <ul class="Flex hover:text-gray-600 cursor-pointer gap-5 font-semibold hidden md:flex">
+         <li>
+            <a class="hover:underline  hover:text-pink-600 cursor-pointer" href="index.html">Home</a>
+         </li>
+         <li>
+            <a class="hover:underline  hover:text-blue-700" href="creamypicks.html">Creamy Picks</a>
+         </li>
+         <li>
+            <a class="hover:underline  hover:text-pink-600" href="contact.html">Contact</a>
+         </li>
+         <li>
+            <a class="hover:underline   hover:text-blue-700" href="cravelist.html">Crave List</a>
+         </li>
+
+         <li>
+            <i class="fa-solid fa-cart-shopping" style="color: #0a0a0a;"></i>
+         </li>
+         <li class="px-3">
+            <i class="fa-solid fa-user gap-5" style="color: #0a0a0a;"></i>
+         </li>
+      </ul>
+   </nav>
+
+   <!---------------------------contact template----------------->
+   <section class="bg-white dark:bg-gray-900">
+      <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us
+         </h2>
+         <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
+            Craving something custom or have a sweet question? Just drop us a note — we’d love to hear from you!
+         </p>
+         <form action="#" class="space-y-8">
+            <div>
+               <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your
+                  email</label>
+               <input type="email" id="email"
+                  class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-rose-400 focus:border-rose-400 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-rose-400 dark:focus:border-rose-400"
+                  placeholder="name@cremebae.com" required>
+            </div>
+            <div>
+               <label for="subject"
+                  class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+               <input type="text" id="subject"
+                  class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-rose-400 focus:border-rose-400 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-rose-400 dark:focus:border-rose-400"
+                  placeholder="Let us know how we can help you" required>
+            </div>
+            <div class="sm:col-span-2">
+               <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your
+                  message</label>
+               <textarea id="message" rows="6"
+                  class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-rose-400 focus:border-rose-400 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-rose-400 dark:focus:border-rose-400"
+                  placeholder="Leave a comment..."></textarea>
+            </div>
+            <button type="submit"
+               class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-rose-800 sm:w-fit hover:bg-rose-700 focus:ring-4 focus:outline-none focus:ring-rose-300 dark:bg-rose-600 dark:hover:bg-rose-700 dark:focus:ring-rose-800">
+               Send message
+            </button>
+         </form>
+      </div>
+   </section>
+
+   <!----------------------------------Footer Section------------------>
+   <section class="bg-blue-50 p-10 mt-5 flex flex-col gap-5 cursor-pointer">
+      <h1 class="text-4xl font-bold">CrèmeBae</h1>
+      <p class="font-light text-xl">Made with frosting, sprinkles & a whole lot of love</p>
+      <p class="">
+         <i class="fa-brands fa-facebook px-1" style="color: #1c4b9b; font-size:25px;"></i>
+         <i class="fa-brands fa-instagram px-1" style="color: #0d0d0d; font-size:25px;"></i>
+         <i class="fa-brands fa-youtube px-1" style="color: #e51f33; font-size:25px;"></i>
+         <i class="fa-brands fa-twitter px-1" style="color: #74C0FC; font-size:25px;"></i>
+
+      </p>
+      <p class="font-bold text-pink-800">@ 2025 CrèmeBae.com
+      </p>
+   </section>
+
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CrèmeBae</title>
+
+   <!--Tailwind Css link-->
+   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+   <!--Font Awesome link-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <!--Tailiwind contact template link-->
+   <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+   <!-----------------------Navbar--------------------------->
+   <nav class="bg-blue-50 p-3 flex items-center justify-between shadow-2xl sticky top-0 z-10">
+
+      <h1 class="text-4xl font-extrabold">CrèmeBae</h1>
+
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+         class="w-8 h-15 md:hidden">
+         <path stroke-linecap="round" stroke-linejoin="round"
+            d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+      </svg>
+
+      <ul class="Flex hover:text-gray-600 cursor-pointer gap-5 font-semibold hidden md:flex">
+         <li>
+            <a class="hover:underline  hover:text-pink-600 cursor-pointer" href="index.html">Home</a>
+         </li>
+         <li>
+            <a class="hover:underline  hover:text-blue-700" href="creamypicks.html">Creamy Picks</a>
+         </li>
+         <li>
+            <a class="hover:underline  hover:text-pink-600" href="contact.html">Contact</a>
+         </li>
+         <li>
+            <a class="hover:underline   hover:text-blue-700" href="cravelist.html">Crave List</a>
+         </li>
+
+         <li>
+            <i class="fa-solid fa-cart-shopping" style="color: #0a0a0a;"></i>
+         </li>
+         <li class="px-3">
+            <i class="fa-solid fa-user gap-5" style="color: #0a0a0a;"></i>
+         </li>
+      </ul>
+   </nav>
+
+   <!------------------crave list section------------------->
+   <section class="bg-pink-50 py-16 px-4">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-4xl font-extrabold text-pink-700 mb-4">Sweet Wishlist</h2>
+    <p class="text-pink-500 mb-8">Here are the treats you've bookmarked to crave later ❤️</p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!----------------------crave list 1----------------------->
+      <div class="bg-white rounded-2xl shadow-lg p-5 hover:shadow-pink-200 transition-transform hover:-translate-y-2">
+        <img src="./image/c3.jpg" alt="Cupcake" class="rounded-lg w-full h-40 object-cover mb-4">
+        <h3 class="text-xl font-semibold text-pink-700 mb-2">Strawberry Cupcake</h3>
+        <button class="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600">Remove</button>
+      </div>
+
+      <!-----------------------------crave list 2---------------------->
+      <div class="bg-white rounded-2xl shadow-lg p-5 hover:shadow-pink-200 transition-transform hover:-translate-y-2">
+        <img src="./image/d1.jpg" alt="Donut" class="rounded-lg w-full h-40 object-cover mb-4">
+        <h3 class="text-xl font-semibold text-pink-700 mb-2">Blueberry Donut</h3>
+        <button class="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600">Remove</button>
+      </div>
+
+      <!---------------------------crave list 3----------------->
+      <div class="bg-white rounded-2xl shadow-lg p-5 hover:shadow-pink-200 transition-transform hover:-translate-y-2">
+        <img src="./image/cookie4.jpg" alt="Cookie" class="rounded-lg w-full h-40 object-cover mb-4">
+        <h3 class="text-xl font-semibold text-pink-700 mb-2">Chocolate Chip Cookie</h3>
+        <button class="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600">Remove</button>
+      </div>
+    </div>
+
+    <button class="mt-8 bg-pink-600 text-white px-6 py-3 rounded-full hover:bg-pink-700 transition">
+      Browse More Treats 🍰
+    </button>
+  </div>
+</section>
+
+    <!----------------------------------Footer Section------------------>
+   <section class="bg-blue-50 p-10 flex flex-col gap-5 cursor-pointer">
+      <h1 class="text-4xl font-bold">CrèmeBae</h1>
+      <p class="font-light text-xl">Made with frosting, sprinkles & a whole lot of love</p>
+      <p class="">
+         <i class="fa-brands fa-facebook px-1" style="color: #1c4b9b; font-size:25px;"></i>
+         <i class="fa-brands fa-instagram px-1" style="color: #0d0d0d; font-size:25px;"></i>
+         <i class="fa-brands fa-youtube px-1" style="color: #e51f33; font-size:25px;"></i>
+         <i class="fa-brands fa-twitter px-1" style="color: #74C0FC; font-size:25px;"></i>
+
+      </p>
+      <p class="font-bold text-pink-800">@ 2025 CrèmeBae.com
+      </p>
+   </section>

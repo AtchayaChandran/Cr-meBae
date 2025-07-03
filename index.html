@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CrèmeBae</title>
+   <!--Tailwind Css link-->
+   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+   <!--Font Awesome link-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+   <!-----------------------Navbar--------------------------->
+   <nav class="bg-blue-50 p-3 flex items-center justify-between shadow-2xl sticky top-0 z-10">
+
+      <h1 class="text-4xl font-extrabold">CrèmeBae</h1>
+
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+         class="w-8 h-15 md:hidden">
+         <path stroke-linecap="round" stroke-linejoin="round"
+            d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+      </svg>
+
+      <ul class="Flex hover:text-gray-600 cursor-pointer gap-5 font-semibold hidden md:flex">
+         <li>
+            <a class="hover:underline  hover:text-pink-600 cursor-pointer" href="index.html"> Home</a>
+         </li>
+         <li>
+            <a class="hover:underline  hover:text-blue-700" href="creamypicks.html">Creamy Picks</a>
+         </li>
+         <li>
+            <a class="hover:underline  hover:text-pink-600" href="contact.html">Contact</a>
+         </li>
+         <li>
+            <a class="hover:underline   hover:text-blue-700" href="cravelist.html">Crave List</a>
+         </li>
+
+         <li>
+            <i class="fa-solid fa-cart-shopping" style="color: #0a0a0a;"></i>
+         </li>
+         <li class="px-3">
+            <i class="fa-solid fa-user gap-5" style="color: #0a0a0a;"></i>
+         </li>
+      </ul>
+   </nav>
+
+   <!--------------------Header section----------------------->
+   <section class="bg-blue-50 p-4 md:p-10 px-10 flex justify-center">
+      <div>
+         <p class="mb-3 mt-6 font-semibold md:text-2xl md:text-purple-900">We bring you the softest, creamiest,<br>
+            most irresistible cakes for every occasion!!!</p>
+         <h2 class="font-bold text-3xl md:text-4xl mb-5">Baked with love, just for you!</h2>
+         <div>
+            <button class="border border-pink-800 bg-pink-200 hover:bg-gray-100 text-black p-2 rounded">
+               Shop Now</button>
+            <button class="border border-pink-900 hover:bg-gray-200 rounded p-2">PreBook</button>
+         </div>
+
+         <p class="mt-7"> 4K + Brownies & Cakes Baked with Love
+            <br> | 4K+ Sweet-Toothed Clients
+            <i class="fa-solid fa-heart fa-beat-fade" style="color: #841558;"></i>
+         </p>
+      </div>
+
+      <div class="hidden md:block p-10">
+         <img src="./image/h-img.webp" alt="Header image" class="w-80 h-30">
+      </div>
+
+   </section>
+
+   <!------------------About Section-------------------->
+   <section class="text-center">
+      <h1 class="text-3xl font-bold mt-7 mb-5">About Us</h1>
+      <p class="mb-5 font-semibold text-xl text-pink-900">CrèmeBae is for the dreamers,
+         the sweet lovers, and anyone who smiles at the sight of cake!!
+      </p>
+
+      <div class="md:flex p-15">
+         <div class="border border-purple-900 p-2 m-6 bg-purple-100">
+            <i class="fa-regular fa-note-sticky" style="color: #0d0d0d; font-size: 60px;"></i>
+            <h2 class="text-xl font-medium mt-3">
+               Large Assortment
+            </h2>
+            <p class="p-4">
+               Explore a wide range of cakes, brownies, pastries, and desserts.
+               From classic chocolate to exotic flavors, we've got it all.
+               Perfect treats for birthdays, weddings, or just your mood.
+               Freshly made in small batches with premium ingredients.
+               There's something for every sweet tooth and every moment.
+            </p>
+         </div>
+
+         <div class="border border-yellow-600 p-2 m-6 bg-yellow-50">
+            <i class="fa-solid fa-truck" style="color: #0d0d0d; font-size: 60px;"></i>
+            <h2 class="text-xl font-medium mt-3">
+               Free & Fast Shipping
+            </h2>
+            <p class="p-4">
+               No delivery charges — ever!
+               Lightning-fast delivery to your doorstep.
+               Freshness guaranteed with secure packaging.
+               On-time, every time — because cravings can't wait.
+               Track your order easily, from oven to home.
+            </p>
+         </div>
+
+         <div class="border border-pink-900 p-2 m-6 bg-pink-50">
+            <i class="fa-solid fa-headset" style="color: #0d0d0d; font-size: 60px;"></i>
+            <h2 class="text-xl font-medium mt-3">
+               24/7 Sweet Support
+            </h2>
+            <p class="p-4">
+               Cake questions? Midnight cravings? We're here!
+               Chat with our dessert-loving support team anytime.
+               Friendly, fast, and always happy to help.
+               Get order updates or ask for customizations.
+               Because your cake joy should never wait!
+            </p>
+         </div>
+
+      </div>
+   </section>
+
+   <!--------------------Brownie section--------------------->
+   <selection class="p-4 text-center">
+      <h1 class="font-bold mt-5 p-5 text-pink-800 text-3xl">
+         Rich & Elegant
+      </h1>
+
+      <div class="grid grid-cols-2 mt-5 gap-5 md:grid-cols-4">
+
+         <div>
+            <img src="./image/b1.jpg" class="inline hover:shadow-xl transform hover:translate-y-2">
+            <h1 class="font-bold text-lg mt-5">Brownie with Hot chocolate</h1>
+            <p class="text-lg font-bold">
+               1Pc <span class="text-pink-800 font-bold text-lg">₹150</span>
+            </p>
+         </div>
+
+         <div>
+            <img src="./image/b2.jpg" class="inline hover:shadow-xl transform hover:translate-y-2">
+            <h1 class="font-bold text-lg mt-5">Oreo Brownie </h1>
+            <p class="text-lg font-bold">
+               1Pc <span class="text-pink-800 font-bold text-lg">₹170</span>
+            </p>
+         </div>
+
+         <div>
+            <img src="./image/b3.jpg" class="inline hover:shadow-xl transform hover:translate-y-2">
+            <h1 class="font-bold text-lg mt-5">Choco chips Brownie</h1>
+            <p class="text-lg font-bold">
+               1Pc <span class="text-pink-800 font-bold text-lg">₹120</span>
+            </p>
+         </div>
+
+         <div>
+            <img src="./image/b4.jpg" class="inline hover:shadow-xl transform hover:translate-y-2">
+            <h1 class="font-bold text-lg mt-5">Brownie with Whipped cream</h1>
+            <p class="text-lg font-bold">
+               1Pc <span class="text-pink-800 font-bold text-lg">₹180</span>
+            </p>
+         </div>
+      </div>
+   </selection>
+
+   <!--------------------CupCake section--------------------->
+   <selection class="p-4 text-center">
+      <h1 class="font-bold mt-5 p-5 text-pink-800 text-3xl">
+         Cute & Bubbly
+      </h1>
+
+      <div class="grid grid-cols-2 mt-5 gap-5 md:grid-cols-4">
+
+         <div>
+            <img src="./image/c1.jpg" class="inline hover:shadow-xl transform hover:translate-y-2">
+            <h1 class="font-bold text-lg mt-5">Matcha Cupcakes</h1>
+            <p class="text-lg font-bold">
+               5Pc <span class="text-pink-800 font-bold text-lg">₹550</span>
+            </p>
+         </div>
+
+         <div>
+            <img src="./image/c2.jpg" class="inline hover:shadow-xl transform hover:translate-y-2">
+            <h1 class="font-bold text-lg mt-5">Strawberry Cupcakes</h1>
+            <p class="text-lg font-bold">
+               6Pc <span class="text-pink-800 font-bold text-lg">₹650</span>
+            </p>
+         </div>
+
+         <div>
+            <img src="./image/c3.jpg" class="inline hover:shadow-xl transform hover:translate-y-2">
+            <h1 class="font-bold text-lg mt-5">Blueberry CupCakes</h1>
+            <p class="text-lg font-bold">
+               5Pc <span class="text-pink-800 font-bold text-lg">₹750</span>
+            </p>
+         </div>
+
+         <div>
+            <img src="./image/c4.jpg" class="inline hover:shadow-xl transform hover:translate-y-2">
+            <h1 class="font-bold text-lg mt-5">Vanila CupCakes </h1>
+            <p class="text-lg font-bold">
+               5Pc <span class="text-pink-800 font-bold text-lg">₹500</span>
+            </p>
+         </div>
+      </div>
+   </selection>
+
+   <!---------------------Customer review-------------------->
+   <h1 class="text-3xl font-bold mt-5 text-center">Customer Review</h1>
+   <div class="flex flex-col gap-5 justify-center text-white m-5">
+
+      <div class="bg-yellow-50 p-5 container mt-5">
+         <h1 class="text-black font-bold">These cupcakes are honestly the best I've ever had! The sponge was so soft and
+            moist,
+            and the
+            frosting was smooth, creamy, and just sweet enough — not too overpowering. I ordered the strawberry and
+            vanilla duo box and every single bite felt like a warm hug. Also, the packaging was so aesthetic, I didn't
+            even want to open it. This is what love tastes like! <br>
+         </h1>
+         <p class="text-purple-900 font-bold py-3">Diya Reddy</p>
+      </div>
+
+      <div class="bg-yellow-50 p-5 container mt-5">
+         <h1 class="text-black font-bold">I surprised my girlfriend with the Fudgy Brownie Box and oh my god — she
+            didn't even wait for me to open it. The brownies were thick, rich, perfectly chocolatey, and had this gooey
+            center that made them taste homemade. You could really feel the love in every piece. The delivery was on
+            time and the box had this cute ribbon and handwritten thank-you note. Such a sweet gesture!</h1>
+         <p class="text-purple-900 font-bold py-3">Rithvik Yadav</p>
+      </div>
+
+      <div class="bg-yellow-50 p-5 container mt-5">
+         <h1 class="text-black font-bold">I ordered the Dreamy Chocolate Truffle Cake for my brothe's birthday and it
+            was a hit! The texture was divine — soft layers with silky chocolate ganache in between. It looked even
+            better than the photo on the website and had this creamy glaze that made everyone say WOW. Also, they even
+            wrote our message in perfect piping. I'm beyond impressed!”</h1>
+         <p class="text-purple-900 font-bold py-3">Shweta Sharma</p>
+      </div>
+
+      <div class="bg-yellow-50 p-5 container mt-5">
+         <h1 class="text-black font-bold">These cookies taste like something straight out of a cozy bakery in the
+            movies. They were warm, slightly chewy, and filled with just the right amount of melty chocolate chips. I
+            got the assorted box and my family literally fought over the last cookie. The butter flavor was rich and
+            they stayed fresh for 4 days! Please launch a monthly cookie box</h1>
+         <p class="text-purple-900 font-bold py-3">Meera Iyer</p>
+      </div>
+
+      <div class="bg-yellow-50 p-5 container mt-5">
+         <h1 class="text-black font-bold">I got the Mini Donut Mix for my birthday party and it became the star of the
+            table. Everyone kept asking where I got them from! They were colorful, soft, and had fun flavors like rose,
+            caramel, and Oreo. Even the kids loved them. I loved how each donut had a unique glaze and sprinkles — it
+            looked like a rainbow on a plate. Thank you for making my celebration so special!</h1>
+         <p class="text-purple-900 font-bold py-3">Deeksha Naidu</p>
+      </div>
+   </div>
+
+   <!---------------------used Tailwind styling with utility classes-------------------->
+   <div class="bg-pink-50 p-6 rounded-xl mt-10 mb-10 shadow-md max-w-md mx-auto">
+      <div class="flex items-center space-x-2 text-base">
+         <h4 class="font-semibold text-rose-700">Loved by Sweet Cravers</h4>
+         <span class="bg-rose-100 px-2 py-1 text-xL font-bold text-rose-600 rounded-full">3K++</span>
+      </div>
+
+      <div class="mt-3 flex -space-x-2 overflow-hidden">
+         <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white"
+            src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            alt="Craver 1" />
+         <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white"
+            src="https://images.unsplash.com/photo-1550525811-e5869dd03032?auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            alt="Craver 2" />
+         <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white"
+            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
+            alt="Craver 3" />
+         <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white"
+            src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            alt="Craver 4" />
+         <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white"
+            src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            alt="Craver 5" />
+         <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white"
+            src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            alt="Craver 1" />
+         <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white"
+            src="https://images.unsplash.com/photo-1550525811-e5869dd03032?auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            alt="Craver 2" />
+         <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white"
+            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
+            alt="Craver 3" />
+         <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white"
+            src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            alt="Craver 4" />
+         <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white"
+            src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            alt="Craver 5" />
+      </div>
+      <div class="mt-3 text-sm font-bold">
+         <a href="#" class="text-rose-500 hover:underline">+ 3K more cravers</a>
+      </div>
+   </div>
+
+   <!-----------------------------------News Letter---------------------->
+   <section class="text-center">
+      <h1 class="text-3xl font-bold mt-5 text-center">Join our CraveList!</h1>
+      <p class="font-extralight px-5">Get exclusive dessert discounts, sweet updates & early access to our yummiest
+         treats.</p>
+      <input type="text" class="border border-pink-800 p-2 m-3 mt-5" style="width:80%;">
+      <br>
+      <button
+         class="bg-pink-200  text-black p-3 m-1 mb-5 mt-5 hover:bg-red-100 rounded-md font-semibold">Subscribe</button>
+   </section>
+
+   <!----------------------------------Footer Section------------------>
+   <section class="bg-blue-50 p-10 mt-5 flex flex-col gap-5 cursor-pointer">
+      <h1 class="text-4xl font-bold">CrèmeBae</h1>
+      <p class="font-light text-xl">Made with frosting, sprinkles & a whole lot of love</p>
+      <p class="">
+         <i class="fa-brands fa-facebook px-1" style="color: #1c4b9b; font-size:25px;"></i>
+         <i class="fa-brands fa-instagram px-1" style="color: #0d0d0d; font-size:25px;"></i>
+         <i class="fa-brands fa-youtube px-1" style="color: #e51f33; font-size:25px;"></i>
+         <i class="fa-brands fa-twitter px-1" style="color: #74C0FC; font-size:25px;"></i>
+
+      </p>
+      <p class="font-bold text-pink-800">@ 2025 CrèmeBae.com
+      </p>
+   </section>
+
+</body>
+
+</html>
