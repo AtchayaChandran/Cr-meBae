@@ -5,6 +5,8 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>CrèmeBae</title>
+   <link rel="icon" type="image/png" href="./image/logo1.png">
+
    <!--Tailwind Css link-->
    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
    <!--Font Awesome link-->
@@ -28,7 +30,7 @@
 
       <ul class="Flex hover:text-gray-600 cursor-pointer gap-5 font-semibold hidden md:flex">
          <li>
-            <a class="hover:underline  hover:text-pink-600 cursor-pointer" href="index.html"> Home</a>
+            <a class="hover:underline hover:text-pink-600 cursor-pointer " href="index.html"> Home</a>
          </li>
          <li>
             <a class="hover:underline  hover:text-blue-700" href="creamypicks.html">Creamy Picks</a>
@@ -41,16 +43,21 @@
          </li>
 
          <li>
-            <i class="fa-solid fa-cart-shopping" style="color: #0a0a0a;"></i>
+            <a href="cart.html">
+               <i class="fa-solid fa-cart-shopping" style="color: #0a0a0a;"></i>
+            </a>
          </li>
+
          <li class="px-3">
+            <a href = "login.html">
             <i class="fa-solid fa-user gap-5" style="color: #0a0a0a;"></i>
+            </a>
          </li>
       </ul>
    </nav>
 
    <!--------------------Header section----------------------->
-   <section class="bg-blue-50 p-4 md:p-10 px-10 flex justify-center">
+   <section class="bg-blue-50 p-4 md:p-10  flex justify-center">
       <div>
          <p class="mb-3 mt-6 font-semibold md:text-2xl md:text-purple-900">We bring you the softest, creamiest,<br>
             most irresistible cakes for every occasion!!!</p>
@@ -132,7 +139,7 @@
          Rich & Elegant
       </h1>
 
-      <div class="grid grid-cols-2 mt-5 gap-5 md:grid-cols-4">
+      <div class="grid grid-cols-2 mt-5 gap-5 md:grid-cols-4 p-10 md:p-0">
 
          <div>
             <img src="./image/b1.jpg" class="inline hover:shadow-xl transform hover:translate-y-2">
@@ -174,7 +181,7 @@
          Cute & Bubbly
       </h1>
 
-      <div class="grid grid-cols-2 mt-5 gap-5 md:grid-cols-4">
+      <div class="grid grid-cols-2 mt-5 gap-5 md:grid-cols-4 p-10 md:p-0">
 
          <div>
             <img src="./image/c1.jpg" class="inline hover:shadow-xl transform hover:translate-y-2">
@@ -186,7 +193,7 @@
 
          <div>
             <img src="./image/c2.jpg" class="inline hover:shadow-xl transform hover:translate-y-2">
-            <h1 class="font-bold text-lg mt-5">Strawberry Cupcakes</h1>
+            <h1 class="font-bold text-lg mt-5">Avacado Cupcakes</h1>
             <p class="text-lg font-bold">
                6Pc <span class="text-pink-800 font-bold text-lg">₹650</span>
             </p>

@@ -13,9 +13,8 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
       integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-   <!--Tailiwind contact template link-->
    <script src="https://cdn.tailwindcss.com"></script>
+
 
 </head>
 
@@ -44,7 +43,6 @@
          <li>
             <a class="hover:underline   hover:text-blue-700" href="cravelist.html">Crave List</a>
          </li>
-
          <li>
             <a href="cart.html">
                <i class="fa-solid fa-cart-shopping" style="color: #0a0a0a;"></i>
@@ -59,48 +57,21 @@
       </ul>
    </nav>
 
-   <!------------------crave list section------------------->
-   <section class="bg-white py-16 px-4">
-      <div class="max-w-4xl mx-auto text-center">
-         <h2 class="text-4xl font-extrabold text-purple-900 mb-4">Crave Wishlist</h2>
-         <p class="text-pink-800 mb-8 font-bold">Here are the treats you've bookmarked to crave later </p>
-
-         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!----------------------crave list 1----------------------->
-            <div
-               class="bg-white rounded-2xl shadow-lg p-5 hover:shadow-pink-200 transition-transform hover:-translate-y-2">
-               <img src="./image/c3.jpg" alt="Cupcake" class="rounded-lg w-full h-40 object-cover mb-4">
-               <h3 class="text-xl font-semibold text-pink-800 mb-2">Strawberry Cupcake</h3>
-               <button class="bg-yellow-50 text-black font-semibold px-4 py-2 rounded-lg hover:bg-pink-50 border border-yellow-600 ">Remove</button>
-            </div>
-
-            <!-----------------------------crave list 2---------------------->
-            <div
-               class="bg-white rounded-2xl shadow-lg p-5 hover:shadow-pink-200 transition-transform hover:-translate-y-2">
-               <img src="./image/d1.jpg" alt="Donut" class="rounded-lg w-full h-40 object-cover mb-4">
-               <h3 class="text-xl font-semibold text-pink-800 mb-2">Blueberry Donut</h3>
-               <button class="bg-yellow-50 font-semibold text-black px-4 py-2 rounded-lg hover:bg-pink-50  border border-yellow-600">Remove</button>
-            </div>
-
-            <!---------------------------crave list 3----------------->
-            <div
-               class="bg-white rounded-2xl shadow-lg p-5 hover:shadow-pink-200 transition-transform hover:-translate-y-2">
-               <img src="./image/cookie4.jpg" alt="Cookie" class="rounded-lg w-full h-40 object-cover mb-4">
-               <h3 class="text-xl font-semibold text-pink-800 mb-2">Chocolate Chip Cookie</h3>
-               <button class="bg-yellow-50 text-black font-semibold px-4 py-2 rounded-lg hover:bg-pink-50  border border-yellow-600">Remove</button>
-            </div>
-         </div>
-
-         <a href="creamypicks.html">
-         <button class="mt-8 bg-pink-100 text-pink-900 px-6 py-3 rounded-full hover:bg-gray-50 transition border border-pink-600">
-            Browse More Treats 🍰
-         </button>
-      </a>
+   <!------------------------Cart section------------------------>
+   <section class="bg-white min-h-[60vh] flex items-center justify-center px-4 py-20">
+      <div class="text-center">
+         <img src="./image/m&b.jpg" alt="Empty Cart" class="mx-auto w-40 h-40 mb-6 rounded-full" />
+         <h2 class="text-3xl font-bold text-rose-800 mb-2">Oops!!! Your cart is empty 😟</h2>
+         <p class="text-black mb-6">Looks like you haven't added anything sweet yet.</p>
+         <a href="creamypicks.html"
+            class="inline-block bg-black hover:bg-gray-800 text-white font-semibold py-2 px-6 rounded-full shadow-md transition">
+            Start Picking Desserts 🍪
+         </a>
       </div>
    </section>
 
    <!----------------------------------Footer Section------------------>
-   <section class="bg-blue-50 p-10 flex flex-col gap-5 cursor-pointer">
+   <section class="bg-blue-50 p-10 mt-5 flex flex-col gap-5 cursor-pointer">
       <h1 class="text-4xl font-bold">CrèmeBae</h1>
       <p class="font-light text-xl">Made with frosting, sprinkles & a whole lot of love</p>
       <p class="">

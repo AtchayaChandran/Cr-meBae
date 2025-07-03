@@ -14,8 +14,9 @@
       integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-   <!--Tailiwind contact template link-->
+   <!--Tailiwind login template link-->
    <script src="https://cdn.tailwindcss.com"></script>
+
 
 </head>
 
@@ -44,7 +45,6 @@
          <li>
             <a class="hover:underline   hover:text-blue-700" href="cravelist.html">Crave List</a>
          </li>
-
          <li>
             <a href="cart.html">
                <i class="fa-solid fa-cart-shopping" style="color: #0a0a0a;"></i>
@@ -58,44 +58,56 @@
          </li>
       </ul>
    </nav>
+   <!------------------------------Tailwind templates-------------------->
+   <section class="bg-gray-50">
+      <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
+         <a href="#" class="flex items-center mb-6 text-2xl font-semibold text-gray-900">
+            <img class="w-10 h-10 mr-2 rounded-full" src="./image/logo1.png" alt="CrèmeBae logo">
 
-   <!------------------crave list section------------------->
-   <section class="bg-white py-16 px-4">
-      <div class="max-w-4xl mx-auto text-center">
-         <h2 class="text-4xl font-extrabold text-purple-900 mb-4">Crave Wishlist</h2>
-         <p class="text-pink-800 mb-8 font-bold">Here are the treats you've bookmarked to crave later </p>
-
-         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!----------------------crave list 1----------------------->
-            <div
-               class="bg-white rounded-2xl shadow-lg p-5 hover:shadow-pink-200 transition-transform hover:-translate-y-2">
-               <img src="./image/c3.jpg" alt="Cupcake" class="rounded-lg w-full h-40 object-cover mb-4">
-               <h3 class="text-xl font-semibold text-pink-800 mb-2">Strawberry Cupcake</h3>
-               <button class="bg-yellow-50 text-black font-semibold px-4 py-2 rounded-lg hover:bg-pink-50 border border-yellow-600 ">Remove</button>
-            </div>
-
-            <!-----------------------------crave list 2---------------------->
-            <div
-               class="bg-white rounded-2xl shadow-lg p-5 hover:shadow-pink-200 transition-transform hover:-translate-y-2">
-               <img src="./image/d1.jpg" alt="Donut" class="rounded-lg w-full h-40 object-cover mb-4">
-               <h3 class="text-xl font-semibold text-pink-800 mb-2">Blueberry Donut</h3>
-               <button class="bg-yellow-50 font-semibold text-black px-4 py-2 rounded-lg hover:bg-pink-50  border border-yellow-600">Remove</button>
-            </div>
-
-            <!---------------------------crave list 3----------------->
-            <div
-               class="bg-white rounded-2xl shadow-lg p-5 hover:shadow-pink-200 transition-transform hover:-translate-y-2">
-               <img src="./image/cookie4.jpg" alt="Cookie" class="rounded-lg w-full h-40 object-cover mb-4">
-               <h3 class="text-xl font-semibold text-pink-800 mb-2">Chocolate Chip Cookie</h3>
-               <button class="bg-yellow-50 text-black font-semibold px-4 py-2 rounded-lg hover:bg-pink-50  border border-yellow-600">Remove</button>
+            CrèmeBae
+         </a>
+         <div class="w-full bg-white rounded-lg shadow md:mt-0 sm:max-w-md xl:p-0">
+            <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
+               <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl">
+                  Sign in to your account
+               </h1>
+               <form class="space-y-4 md:space-y-6" action="#">
+                  <div>
+                     <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Your email</label>
+                     <input type="email" name="email" id="email" placeholder="name@example.com"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-pink-500 focus:border-pink-500 block w-full p-2.5"
+                        required>
+                  </div>
+                  <div>
+                     <label for="password" class="block mb-2 text-sm font-medium text-gray-900">Password</label>
+                     <input type="password" name="password" id="password" placeholder="••••••••"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-pink-500 focus:border-pink-500 block w-full p-2.5"
+                        required>
+                  </div>
+                  <div class="flex items-center justify-between">
+                     <div class="flex items-start">
+                        <div class="flex items-center h-5">
+                           <input id="remember" type="checkbox"
+                              class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-2 focus:ring-pink-400"
+                              required>
+                        </div>
+                        <div class="ml-3 text-sm">
+                           <label for="remember" class="text-gray-500">Remember me</label>
+                        </div>
+                     </div>
+                     <a href="#" class="text-sm font-medium text-pink-600 hover:underline">Forgot password?</a>
+                  </div>
+                  <button type="submit"
+                     class="w-full text-white bg-black focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
+                     Sign in
+                  </button>
+                  <p class="text-sm font-light text-gray-500">
+                     Don't have an account yet?
+                     <a href="#" class="font-medium text-pink-600 hover:underline">Sign up</a>
+                  </p>
+               </form>
             </div>
          </div>
-
-         <a href="creamypicks.html">
-         <button class="mt-8 bg-pink-100 text-pink-900 px-6 py-3 rounded-full hover:bg-gray-50 transition border border-pink-600">
-            Browse More Treats 🍰
-         </button>
-      </a>
       </div>
    </section>
 
